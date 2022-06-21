@@ -1,7 +1,8 @@
 ########################
 #PROGETTO
 #3, 2, 1, CASA
-################
+########################
+
 ?install.packages()
 install.packages("raster")
 install.packages("RStoolbox")
@@ -36,7 +37,7 @@ pdf("multiframe.pdf")
 par(mfrow = c (2, 1))
 plot(c2011$casa_2011.1, col = cl)
 plot(c2021$casa_2021.1, col = cl)
-pdf("multiframe.png")
+png("multiframe.png")
 par(mfrow = c (2, 1))
 plot(c2011$casa_2011.1, col = cl)
 plot(c2021$casa_2021.1, col = cl)
