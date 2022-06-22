@@ -28,7 +28,7 @@
 #Landsat/Copernicus 
 
 #prima di iniziare ho installato tutti i pacchetti su R con 
-#install.packages("___") --> mettendo le "_" perchè usciamo da R e quindi  
+#install.packages("___") --> mettendo le "_" perché usciamo da R e quindi  
 #occorrono le virgolette
 ?install.packages()
 install.packages("raster")
@@ -128,7 +128,7 @@ colorRampPalette(c("black", "grey", "light grey")) (100)
 cl <- colorRampPalette(c("black", "grey", "light grey")) (100)
 #e ora richiamo i due plot con le immagini che voglio visualizzare
 #plot del 2011 e 2021
-#aggiungo l'argomento col: colore che in questo caso è uguale a l 
+#aggiungo l'argomento col: colore che in questo caso è uguale a cl 
 #nome che ho dato alla colorRampPalette
 #plottiamo prima il 2011
 plot(c2011, col = cl)
@@ -311,7 +311,7 @@ dvi_dif
 #values     : -72, 81  (min, max)
 
 #faccio una colorRampPalette a cui assegno il nome di cldif
-cldif <- colorRampPalette(c(" blue", "white", "red")) (100)
+cldif <- colorRampPalette(c("blue", "white", "red")) (100)
 #plotto l'immagine 
 plot(dvi_dif, col = cldif)
 #in questa immagine 
@@ -392,6 +392,8 @@ plot(ndvi2021, col = clndvi)
 #Considerando che il tempo e lo spazio in esame sono ristretti il problema 
 #di uno sviluppo incontrollato potrebbe essere davvero serio
 
+
+
 ########################
 #GITHUB
 
@@ -400,12 +402,12 @@ plot(ndvi2021, col = clndvi)
 #https://github.com/GraziaTeg/R_code_exam_21_22.git
 #link per codici fatti a lezione 
 #https://github.com/GraziaTeg/telerilevamento_21_22.git
-#link per mie appunti presi a lezione
+#link per i miei appunti presi a lezione
 #https://github.com/GraziaTeg/codici_R_telerilevamento_21_22.git
+
 
 
 ########################
 #OVERLEAF
 #link con la presentazione in latex del mio progetto 
 #https://it.overleaf.com/3441691529zctvhrqtbkgx
-
