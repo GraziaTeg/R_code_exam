@@ -49,6 +49,7 @@ par(mfrow = c(2, 1))
 plotRGB(c2011, r = 1, g = 2, b = 3, stretch = "lin")
 plotRGB(c2021, r = 1, g = 2, b = 3, stretch = "lin")
 
+
 ################################
 dvi2011 = c2011[[1]] - c2011[[2]]
 dvi2011
